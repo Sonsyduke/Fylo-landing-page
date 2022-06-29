@@ -3,6 +3,7 @@
   --very-dark-blue: hsl(243, 87%, 12%);
   --desaturated-blue: hsl(238, 22%, 44%);
   --bright-blue: hsl(224, 93%, 58%);
+  --bright-blue-hover: hsl(224, 98%, 65%);
   --moderate-cyan: hsl(170, 45%, 43%);
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
@@ -155,6 +156,7 @@ body {
 .links {
   display: flex;
   gap: 30px;
+  font-family: "Raleway", sans-serif;
 }
 
 .link a {
@@ -167,3 +169,60 @@ body {
 }
 
 /* =================== HERO SECTION =================== */
+.hero-section {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-heading {
+  color: var(--very-dark-blue);
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.desc {
+  color: var(--very-dark-blue);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+form {
+  margin: 30px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-input {
+  padding: 10px 5px;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 2px;
+}
+
+.main-btn {
+  background-color: var(--bright-blue);
+  border: none;
+  color: var(--light-grayish-blue);
+  padding: 10px 50px;
+  border: 1px solid var(--bright-blue);
+  border-radius: 2px;
+}
+
+.main-btn:hover {
+  background-color: var(--bright-blue-hover);
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 50%;
+}
