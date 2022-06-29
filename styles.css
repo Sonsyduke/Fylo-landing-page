@@ -139,6 +139,31 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.main-container {
+  width: 90%;
+  margin: auto;
+}
+
 /* =================== NAVBAR =================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--very-dark-blue);
+}
+
+.link a:hover {
+  cursor: pointer;
+}
 
 /* =================== HERO SECTION =================== */
