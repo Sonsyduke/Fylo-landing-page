@@ -486,4 +486,33 @@ form {
   .testimonial {
     text-align: start;
   }
+
+  .newsletter {
+    padding: 50px 0;
+  }
+
+  .newsletter .main-container {
+    flex-direction: column;
+    gap: 0px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .newsletter .main-container .left-side {
+    width: 100%;
+  }
+
+  .desc-newsletter {
+    width: 100%;
+  }
+
+  .newsletter .main-container .right-side {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
 }
