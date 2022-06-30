@@ -365,3 +365,16 @@ form {
   border-radius: 2px;
   color: var(--light-grayish-blue);
 }
+
+/* =================== FOOTER SECTION =================== */
+.footer-section {
+  background-color: var(--very-dark-blue);
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section .main-container .columns {
+  display: flex;
+  justify-content: space-between;
+}
