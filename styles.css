@@ -7,6 +7,7 @@
   --moderate-cyan: hsl(170, 45%, 43%);
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
+  --white: #fff;
 }
 
 /* CSS RESET */
@@ -225,4 +226,83 @@ form {
 
 .hero-img {
   width: 50%;
+}
+
+/* About Section */
+.about-us {
+  background: url("./images/bg-curve-desktop.svg") no-repeat center center;
+  background-size: cover;
+  margin-top: 200px;
+  padding: 100px 0;
+}
+
+.about-us .main-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-us-illustrator {
+  width: 40%;
+}
+
+.left-side-about .main-heading {
+  margin-bottom: 30px;
+}
+
+.left-side-about .desc {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.left-side-about .desc:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.about-btn {
+  color: var(--moderate-cyan);
+  text-decoration: none;
+  border-bottom: 1px solid var(--moderate-cyan);
+  padding-bottom: 5px;
+}
+
+.testimonial {
+  margin-top: 50px;
+  width: 50%;
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(224, 224, 224, 1);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(224, 224, 224, 1);
+  box-shadow: 0px 0px 10px 2px rgba(224, 224, 224, 1);
+}
+
+.testimonial-desc {
+  font-size: 0.8rem;
+  /* font-weight: 700; */
+  color: var(--very-dark-blue);
+  line-height: 2;
+}
+
+.customer {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.customer-name {
+  font-weight: 700;
+  color: var(--very-dark-blue);
+  font-size: 0.9rem;
+}
+
+.customer-position {
+  color: var(--very-dark-blue);
+  font-size: 0.7rem;
+  margin-top: 5px;
 }
