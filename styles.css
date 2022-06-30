@@ -377,4 +377,38 @@ form {
 .footer-section .main-container .columns {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+}
+
+.contact-details {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  color: var(--light-grayish-blue);
+  font-size: 0.9rem;
+}
+
+.column-middle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-footer a {
+  color: var(--light-grayish-blue);
+  text-decoration: none;
+}
+
+.column-right {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  border: 2px solid var(--light-grayish-blue);
+  padding: 5px;
+  border-radius: 50%;
 }
